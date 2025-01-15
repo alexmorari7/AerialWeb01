@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html lang="en"> <!-- added lang="en" atribuite to the html as it is considered a good practice to have it -->
+	<head>
+		<title>Aerial image website in HTML 5</title> <!-- changed the title name -->
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Homework of Alexander Morari, Client Side Web Developer, DEV 209 Student"> <!-- added meta details to improve search engine optimization -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<main id="wrapper"> <!-- replaced "div" with main -->
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<section id="main"> <!-- replaced div with section -->
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Alexander Morari</h1> <!-- changed the name in the header section -->
+						<p>Client Side Web Developer &nbsp;&bull;&nbsp; DEV 209 &nbsp;&bull;&nbsp; Student</p> <!-- added class related details in the paragraf -->
+						<nav>
+							<ul> <!-- Chaged below unordered lines to add aria-label for better accessibility with screen readers -->
+								<li><a href="#" class="icon brands fa-twitter" aria-label="Twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f" aria-label="Facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble" aria-label="Dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-github" aria-label="Github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon solid fa-envelope" aria-label="Email"><span class="label">Email</span></a></li>
+
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+				</section>
+		</main>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
