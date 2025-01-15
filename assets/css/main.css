@@ -8,17 +8,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Added Root Variables */
-:root {
-    --primary-color: #fff;
-    --background-color: #348cb2;
-    --font-family: 'Source Sans Pro', sans-serif;
-    --font-size-base: 15pt;
-    --line-height-base: 1.75em;
-    --font-weight-light: 300;
-    --transition-duration: 0.2s;
-    --border-color: dotted 1px;
-}
+
 /* Below code resets all HTML elements by removing margins, 
 padding and borer in order to provide a clean slate 
 I commented it out because I imported normalize.css instead using: npm install normalize.css
